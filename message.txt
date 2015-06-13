@@ -1,0 +1,7 @@
+curl -d '{"SessionId": "123","Cmd":"waitress/TrainColorBgModel","Params":{"sensor":"dataset/scene/chenzhen1.oni"}}' http://localhost:4151/pub?topic=topic1
+
+curl -d '{"SessionId": "123","Cmd":"waitress/TrainFloorModel","Params":{"num":"20"}}' http://localhost:4151/pub?topic=topic1
+
+curl -d '{"SessionId": "123","Cmd":"waitress/TrainDepth","Params":{"num":"20"}}' http://localhost:4151/pub?topic=topic1
+
+curl -d '{"SessionId": "123","Cmd":"waitress/ColorBgModel","Params":{}}' http://localhost:4151/pub?topic=tunerd_command_SENSORID
